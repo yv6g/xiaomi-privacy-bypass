@@ -13,7 +13,7 @@ This guide is for **educational purposes only**. Use it only on your own device.
 - The phone must be running MIUI with **Developer Options enabled**.
 - Internet access required to install apps.  
 
-##1️⃣ Prerequisites
+## Prerequisites 1️⃣
 1. Enable Developer Options:
    - Go to Settings > About Phone
    - Tap OS version 7 times until you see "You are now a developer!"
@@ -25,7 +25,7 @@ This guide is for **educational purposes only**. Use it only on your own device.
    - Download Shizuku: https://play.google.com/store/apps/details?id=moe.shizuku.privileged.api
    - Download SetEdit: https://play.google.com/store/apps/details?id=by4a.setedit22
 
-##2️⃣ Step-by-Step Guide
+## Step-by-Step Guide 2️⃣
 1. Start Shizuku
    - Open Shizuku, follow the instructions, and start the service.
    - Change notification style from Classic to Android -- you will know why later on (from Shizuku Guide).
@@ -34,11 +34,11 @@ This guide is for **educational purposes only**. Use it only on your own device.
 2. Grant SetEdit Permissions
    - Open Shizuku, go to the "Apps" tab.
    - If you see SetEdit, tap it and grant shell permissions.
-   - If SetEdit doesn't appear, try manually granting permissions using ADB.
+   - If SetEdit doesn't appear, you can ignore it or try manually granting permissions using ADB. If you proceed without it and it still doesn't work, consider using ADB.
 
 3. Modify Privacy Password Settings
    - Open SetEdit.
-   - Find System tools and change it to Secure Table, on the top right.
+   - Tap the dropdown in SetEdit, change 'System Table' to 'Secure Table' at the top right.
    - Locate these settings:
      - `privacy_password_is_open`
      - `access_control_lock_enabled`
@@ -51,13 +51,16 @@ This guide is for **educational purposes only**. Use it only on your own device.
    - Check if Privacy Password is disabled.
    - You will be prompted to set a new one.
 
-##3️⃣  Optional Cleanup
+##  Optional Cleanup 3️⃣
 - Turn off Developer Options (optional but recommended).
 - Uninstall Shizuku & SetEdit to keep things clean.
 - Change notification style back to Classic.
 
-##4️⃣ ADB Guide (Optional, if SetEdit Doesn’t Appear)
-If SetEdit doesn't appear in Shizuku and it didn't work, you can try to manually grant its permissions via ADB:
+
+**You're all set!**
+
+## ADB Guide (Optional, if SetEdit Doesn’t Appear and it didn't work) 4️⃣
+If SetEdit doesn't appear in Shizuku and the method didn't work, you can try manually granting its permissions via ADB:
 ### Steps:
 1. Install **ADB on your PC**:
    - Download platform tools: https://developer.android.com/studio/releases/platform-tools
@@ -73,6 +76,6 @@ If SetEdit doesn't appear in Shizuku and it didn't work, you can try to manually
    ```sh
    .\adb shell pm grant by4a.setedit22 android.permission.WRITE_SECURE_SETTINGS
    ```
-5. If successful, continue with the next steps 3 and 4 from 2️⃣ Step-by-Step Guide. I personally did this step ,but SetEdit still didn't appear on Shizuku I continued anyway.
+5. If successful, continue with the next steps 3 and 4 from Step-by-Step Guide 2️⃣. I personally did this step, but SetEdit still didn't appear in Shizuku. I continued anyway, and it still worked.
 
 You have successfully disabled Xiaomi’s Privacy Password without losing data.
