@@ -53,8 +53,9 @@ If SetEdit doesn't appear in Shizuku, you can manually grant its permissions via
    ```sh
    .\adb shell pm grant by4a.setedit22 android.permission.WRITE_SECURE_SETTINGS
    ```
-5. If successful, continue with the next steps in this guide. I personally did this step ,but SetEdit still didn't appear on Shizuku I contiuned anyway.
+5. If successful, continue with the next steps in this guide. I personally did this step ,but SetEdit still didn't appear on Shizuku I continued anyway.
 
+## Continue
 3. Modify Privacy Password Settings
    - Open SetEdit.
    - Find System tools and change it to Secure Table, on the top right.
