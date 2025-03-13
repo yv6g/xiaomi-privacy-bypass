@@ -1,4 +1,4 @@
-# xiaomi-privacy-bypass
+# Xiaomi-privacy-bypass
 Bypass Xiaomi’s Privacy Password without factory reset.
 
 # Xiaomi Privacy Password Bypass (No Factory Reset)
@@ -13,7 +13,7 @@ This guide is for **educational purposes only**. Use it only on your own device.
 - The phone must be running MIUI with **Developer Options enabled**.
 - Internet access required to install apps.  
 
-## Prerequisites
+##1️⃣ Prerequisites
 1. Enable Developer Options:
    - Go to Settings > About Phone
    - Tap OS version 7 times until you see "You are now a developer!"
@@ -25,7 +25,7 @@ This guide is for **educational purposes only**. Use it only on your own device.
    - Download Shizuku: https://play.google.com/store/apps/details?id=moe.shizuku.privileged.api
    - Download SetEdit: https://play.google.com/store/apps/details?id=by4a.setedit22
 
-## Step-by-Step Guide
+##2️⃣ Step-by-Step Guide
 1. Start Shizuku
    - Open Shizuku, follow the instructions, and start the service.
    - Change notification style from Classic to Android -- you will know why later on (from Shizuku Guide).
@@ -55,7 +55,7 @@ If SetEdit doesn't appear in Shizuku, you can manually grant its permissions via
    ```
 5. If successful, continue with the next steps in this guide. I personally did this step ,but SetEdit still didn't appear on Shizuku I continued anyway.
 
-## Continue
+##3️⃣ Continue
 3. Modify Privacy Password Settings
    - Open SetEdit.
    - Find System tools and change it to Secure Table, on the top right.
