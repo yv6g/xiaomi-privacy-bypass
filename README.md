@@ -1,4 +1,4 @@
-# xiaomi-privacy-bypass
+# Xiaomi-privacy-bypass
 Bypass Xiaomi’s Privacy Password without factory reset.
 
 # Xiaomi Privacy Password Bypass (No Factory Reset)
