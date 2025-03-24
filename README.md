@@ -3,6 +3,8 @@ Bypass Xiaomi’s Privacy Password without factory reset.
 
 # Xiaomi Privacy Password Bypass (No Factory Reset)
 
+# DISCLAIMER: Someone reported that they lost old files, but files from the last three months remained untouched. Use this method at YOUR OWN RISK.
+
 This guide explains how to **disable Xiaomi's Privacy Password** without a factory reset. Tested and confirmed working on **Xiaomi Note 12** (HyperOS 2.0.9.0). 
 
 ## Disclaimer
